@@ -22,3 +22,5 @@ spec:
       parameters:
         - name: keycloak.username
           value: admin
+        - name: keycloak.password
+          value: password
