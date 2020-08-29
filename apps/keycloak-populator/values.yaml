@@ -10,6 +10,6 @@ image:
 keycloak:
   url: http://keycloak-http
   admin_user: admin
-  admin_password: password
+  admin_password: admin
   realm: master
   client_config_path: /configs/client.json

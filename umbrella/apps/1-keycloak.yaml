@@ -16,3 +16,9 @@ spec:
     path: sources/keycloak
     repoURL: https://github.com/rancherfederal/helm-charts.git
     targetRevision: master
+
+    helm:
+      releaseName: keycloak
+      parameters:
+        - name: keycloak.username
+          value: admin
