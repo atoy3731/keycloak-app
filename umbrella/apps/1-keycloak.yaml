@@ -15,4 +15,4 @@ spec:
   source:
     path: charts/keycloak
     repoURL: https://github.com/codecentric/helm-charts.git
-    targetRevision: keycloak-9.0.4
+    targetRevision: master
