@@ -13,6 +13,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: charts/keycloak
-    repoURL: https://github.com/codecentric/helm-charts.git
+    path: sources/keycloak
+    repoURL: https://github.com/rancherfederal/helm-charts.git
     targetRevision: master
