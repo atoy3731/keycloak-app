@@ -1,0 +1,4 @@
+resources:
+  - apps/0-keycloak-prep.yaml
+  - apps/1-keycloak.yaml
+  - apps/2-keycloak-populator.yaml

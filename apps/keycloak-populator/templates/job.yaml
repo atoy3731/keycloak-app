@@ -1,0 +1,32 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: keycloak-populator
+spec:
+  template:
+    spec:
+      containers:
+      - name: keycloak-populator
+        image: {{ .Values.image.name }}:{{ .Values.image.tag }}
+        env:
+          - name: KEYCLOAK_URL
+            value: {{ .Values.keycloak.url | quote }}
+          - name: KEYCLOAK_ADMIN_USER
+            value: {{ .Values.keycloak.admin_user | quote }}
+          - name: KEYCLOAK_ADMIN_PASSWORD
+            value: {{ .Values.keycloak.admin_password | quote }}
+          - name: KEYCLOAK_REALM
+            value: {{ .Values.keycloak.realm | quote }}
+          - name: CLIENT_CONFIG_PATH
+            value: {{ .Values.keycloak.client_config_path | quote }}
+        volumeMounts:
+        - name: argo-client
+          mountPath: "/configs"
+          readOnly: true
+      restartPolicy: Never
+
+  volumes:
+  - name: argo-client
+    secret:
+      secretName: argo-client
+  backoffLimit: 4

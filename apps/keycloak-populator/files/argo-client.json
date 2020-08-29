@@ -1,0 +1,31 @@
+{
+  "clients": [
+    {
+      "id": "argo-client",
+      "name": "argo-client",
+      "secret": "AaU3bPSegtab3cjxEBkbJddA",
+      "redirectUrls": [
+        "*"
+      ],
+      "baseUrl": "http://argo:8080"
+    }
+  ],
+  "groups": [
+    {
+      "id": "argo-group",
+      "name": "argo-group"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Argo",
+      "lastName": "Admin",
+      "username": "argo-admin",
+      "email": "argo-admin@test.com",
+      "password": "Password1234",
+      "groups": [
+        "argo-group"
+      ]
+    }
+  ]
+}
