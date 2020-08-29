@@ -24,9 +24,8 @@ spec:
           mountPath: "/configs"
           readOnly: true
       restartPolicy: Never
-
-  volumes:
-  - name: argo-client
-    secret:
-      secretName: argo-client
+      volumes:
+      - name: argo-client
+        secret:
+          secretName: argo-client
   backoffLimit: 4
