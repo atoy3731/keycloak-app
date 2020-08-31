@@ -3,11 +3,11 @@
     {
       "id": "argo-client",
       "name": "argo-client",
-      "secret": "AaU3bPSegtab3cjxEBkbJddA",
+      "secret": "argo-secret",
       "redirectUrls": [
         "*"
       ],
-      "baseUrl": "http://argo:8080"
+      "baseUrl": "https://argo.govk8s.dev"
     }
   ],
   "groups": [

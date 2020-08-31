@@ -14,5 +14,10 @@ spec:
   project: default
   source:
     path: umbrella/apps
-    repoURL: https://github.com/atoy3731/keycloak-app.git
+    repoURL: https://192.168.10.46:8080/git/keycloak-app.git
     targetRevision: master
+
+  syncPolicy:
+   automated:
+     prune: true
+     selfHeal: true

@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     path: sources/keycloak
-    repoURL: https://github.com/rancherfederal/helm-charts.git
+    repoURL: http://git-http-backend.git.svc/git/helm-charts.git
     targetRevision: master
 
     helm:
@@ -24,3 +24,21 @@ spec:
           value: admin
         - name: keycloak.password
           value: password
+      values: |
+        keycloak:
+          ingress:
+            enabled: true
+            hosts:
+              - keycloak.govk8s.dev
+            annotations:
+              nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
+              kubernetes.io/ingress.class: nginx
+            tls:
+              - hosts:
+                - keycloak.govk8s.dev
+                secretName: tls-govk8s-dev
+
+  syncPolicy:
+   automated:
+     prune: true
+     selfHeal: true
