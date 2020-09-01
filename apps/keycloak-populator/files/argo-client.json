@@ -1,31 +1,42 @@
 {
   "clients": [
+{{- range $client := .Values.keycloak.clients }}
     {
-      "id": "argo-client",
-      "name": "argo-client",
-      "secret": "argo-secret",
+      "id": {{ $client.id | quote }},
+      "name": {{ $client.name | quote }},
+      "secret": {{ $client.secret | quote }},
       "redirectUrls": [
-        "*"
+{{- range $redirectUrl := $client.redirectUrls }}
+        {{ $redirectUrl | quote }}
+{{- end }}
       ],
-      "baseUrl": "https://argo.govk8s.dev"
+      "baseUrl": {{ $client.baseUrl | quote }}
     }
+{{- end }}
+
   ],
   "groups": [
+{{- range $group := .Values.keycloak.groups }}
     {
-      "id": "argo-group",
-      "name": "argo-group"
-    }
+      "id": {{ $group.id | quote }},
+      "name": {{ $group.id | quote }}
+  }
+{{- end }}
   ],
   "users": [
+{{- range $user := .Values.keycloak.users }}
     {
-      "firstName": "Argo",
-      "lastName": "Admin",
-      "username": "argo-admin",
-      "email": "argo-admin@test.com",
-      "password": "Password1234",
+      "firstName": {{ $user.firstName | quote }},
+      "lastName": {{ $user.lastName | quote }},
+      "username": {{ $user.username | quote }},
+      "email": {{ $user.email | quote }},
+      "password": {{ $user.password | quote }},
       "groups": [
-        "argo-group"
+{{- range $group := $user.groups }}
+        {{ $group | quote }}
+{{- end }}
       ]
     }
+{{- end }}
   ]
 }

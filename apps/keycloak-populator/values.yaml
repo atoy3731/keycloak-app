@@ -13,3 +13,25 @@ keycloak:
   admin_password: password
   realm: master
   client_config_path: /configs/client.json
+  gateway: public-gateway.istio-system.svc.cluster.local
+
+  clients:
+    - id: "argo-client"
+      name: "argo-client"
+      secret: "argo-secret"
+      baseUrl: "https://argo.govk8s.dev"
+      redirectUrls:
+        - "*"
+
+  users:
+    - firstName: "Argo"
+      lastName: "Admin"
+      username: "argo-admin"
+      email: "argo-admin@test.com"
+      password: "Password1234"
+      groups:
+        - "argo-group"
+
+  groups:
+    - id: "argo-group"
+      name: "argo-group"
