@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9c45d1c-c916-4f5b-9dfa-ef48db9a8d5a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/keycloak-prep/tls-govk8s-dev.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/keycloak-populator/files/argo-client.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/keycloak-populator/files/argo-client.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/keycloak-populator/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/keycloak-populator/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/keycloak-prep/kustomization.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/keycloak-prep/kustomization.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umbrella/apps/0-keycloak-prep.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/umbrella/apps/0-keycloak-prep.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umbrella/apps/1-keycloak.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/umbrella/apps/1-keycloak.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umbrella/apps/2-keycloak-populator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/umbrella/apps/2-keycloak-populator.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umbrella/umbrella-app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/umbrella/umbrella-app.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,52 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="umbrella-app.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/umbrella/umbrella-app.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config-secret.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/templates/config-secret.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chart.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/Chart.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="values.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="values.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/values.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="119">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="argo-client.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="argo-client.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/files/argo-client.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="0-keycloak-prep.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/umbrella/apps/0-keycloak-prep.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -83,8 +55,47 @@
       <file leaf-file-name="1-keycloak.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/umbrella/apps/1-keycloak.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="302">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="virtual-service.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/templates/virtual-service.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="job.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/templates/job.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="29" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="namespace.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/keycloak-prep/namespace.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="16" lean-forward="true" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,15 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kustomization.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/keycloak-prep/kustomization.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -118,18 +120,20 @@
         <option value="$PROJECT_DIR$/umbrella/apps/keycloak.yaml" />
         <option value="$PROJECT_DIR$/umbrella/kustomization.yaml" />
         <option value="$PROJECT_DIR$/apps/keycloak-prep/namespace.yaml" />
-        <option value="$PROJECT_DIR$/apps/keycloak-populator/templates/config-secret.yaml" />
         <option value="$PROJECT_DIR$/apps/keycloak-populator/templates/NOTES.txt" />
         <option value="$PROJECT_DIR$/umbrella/apps/kustomization.yaml" />
         <option value="$PROJECT_DIR$/apps/keycloak-populator/templates/job.yaml" />
         <option value="$PROJECT_DIR$/umbrella/umbrella-app.yaml" />
         <option value="$PROJECT_DIR$/umbrella/apps/0-keycloak-prep.yaml" />
         <option value="$PROJECT_DIR$/umbrella/apps/2-keycloak-populator.yaml" />
-        <option value="$PROJECT_DIR$/umbrella/apps/1-keycloak.yaml" />
         <option value="$PROJECT_DIR$/apps/keycloak-prep/tls-govk8s-dev.yaml" />
         <option value="$PROJECT_DIR$/apps/keycloak-prep/kustomization.yaml" />
-        <option value="$PROJECT_DIR$/apps/keycloak-populator/values.yaml" />
+        <option value="$PROJECT_DIR$/apps/keycloak-populator/templates/virtual-service.yaml" />
+        <option value="$PROJECT_DIR$/apps/keycloak-populator/templates/config-secret.yaml" />
         <option value="$PROJECT_DIR$/apps/keycloak-populator/files/argo-client.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/umbrella/apps/1-keycloak.yaml" />
+        <option value="$PROJECT_DIR$/apps/keycloak-populator/values.yaml" />
       </list>
     </option>
   </component>
@@ -142,9 +146,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="832" />
     <option name="y" value="23" />
-    <option name="width" value="896" />
+    <option name="width" value="960" />
     <option name="height" value="1097" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -177,13 +182,7 @@
               <item name="keycloak-app" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="keycloak-populator" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-app" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="keycloak-prep" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="keycloak-app" type="b2602c69:ProjectViewProjectNode" />
@@ -283,15 +282,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598730971590</updated>
-      <workItem from="1598730972929" duration="12682000" />
+      <workItem from="1598730972929" duration="16623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12682000" />
+    <option name="totallyTimeSpent" value="16623000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="896" height="1097" extended-state="0" />
+    <frame x="0" y="0" width="1792" height="1120" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -299,15 +298,15 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.29942858" side_tool="true" visible="true" weight="0.52248806" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.7005714" visible="true" weight="0.52248806" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26814988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13085714" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -331,13 +330,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/keycloak-prep/namespace.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/templates/service.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -359,13 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/templates/job.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/Chart.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -383,17 +368,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/umbrella/apps/2-keycloak-populator.yaml">
+    <entry file="file://$PROJECT_DIR$/apps/keycloak-prep/kustomization.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/umbrella/apps/1-keycloak.yaml">
+    <entry file="file://$PROJECT_DIR$/apps/keycloak-prep/namespace.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="45">
+          <caret line="3" column="16" lean-forward="true" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -404,31 +389,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/keycloak-prep/kustomization.yaml">
+    <entry file="file://$PROJECT_DIR$/umbrella/apps/2-keycloak-populator.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/templates/job.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/templates/config-secret.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/values.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/files/argo-client.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/umbrella/apps/1-keycloak.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/templates/virtual-service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/keycloak-populator/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
