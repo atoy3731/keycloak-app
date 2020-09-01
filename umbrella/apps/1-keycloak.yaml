@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     path: sources/keycloak
-    repoURL: http://git-http-backend.git.svc/git/helm-charts.git
+    repoURL: http://git-http-backend.git.svc/git/helm-charts
     targetRevision: master
 
     helm:

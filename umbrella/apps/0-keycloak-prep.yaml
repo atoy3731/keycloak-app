@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     path: apps/keycloak-prep
-    repoURL: http://git-http-backend.git.svc/git/keycloak-app.git
+    repoURL: http://git-http-backend.git.svc/git/keycloak-app
     targetRevision: master
 
   syncPolicy:
